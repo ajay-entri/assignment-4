@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: green;
+  color: white;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+img{
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card{
+  border: 2px solid black;
+  width: 300px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+main{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap ;
+  gap: 10px;
+}
+
+
+
